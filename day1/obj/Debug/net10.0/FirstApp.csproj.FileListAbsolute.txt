@@ -1,0 +1,14 @@
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\FirstApp\bin\Debug\net10.0\FirstApp.exe
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\FirstApp\bin\Debug\net10.0\FirstApp.deps.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\FirstApp\bin\Debug\net10.0\FirstApp.runtimeconfig.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\FirstApp\bin\Debug\net10.0\FirstApp.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\FirstApp\bin\Debug\net10.0\FirstApp.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\FirstApp\obj\Debug\net10.0\FirstApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\FirstApp\obj\Debug\net10.0\FirstApp.AssemblyInfoInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\FirstApp\obj\Debug\net10.0\FirstApp.AssemblyInfo.cs
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\FirstApp\obj\Debug\net10.0\FirstApp.csproj.CoreCompileInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\FirstApp\obj\Debug\net10.0\FirstApp.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\FirstApp\obj\Debug\net10.0\refint\FirstApp.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\FirstApp\obj\Debug\net10.0\FirstApp.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\FirstApp\obj\Debug\net10.0\FirstApp.genruntimeconfig.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\FirstApp\obj\Debug\net10.0\ref\FirstApp.dll
