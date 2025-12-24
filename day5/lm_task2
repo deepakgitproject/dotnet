@@ -1,0 +1,23 @@
+using System;
+namespace Library.Management.System
+{
+    interface IReservable
+    {
+        void ReserveItem();
+    }
+    interface INotifiable
+    {
+        void NotifyAvailability(string message);
+    }
+    class Book: IReservable, INotifiable
+    {
+        public void ReserveItem()
+        {
+            Console.WriteLine("reversed sussessfully");
+        }
+        public void NotifyAvailability(string message)
+        {
+            Console.WriteLine("got your message :"+message);
+        }
+    }
+}
