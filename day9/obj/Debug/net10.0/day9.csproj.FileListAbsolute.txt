@@ -1,0 +1,15 @@
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9\bin\Debug\net10.0\day9.exe
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9\bin\Debug\net10.0\day9.deps.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9\bin\Debug\net10.0\day9.runtimeconfig.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9\bin\Debug\net10.0\day9.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9\bin\Debug\net10.0\day9.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9\obj\Debug\net10.0\day9.GeneratedMSBuildEditorConfig.editorconfig
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9\obj\Debug\net10.0\day9.AssemblyInfoInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9\obj\Debug\net10.0\day9.AssemblyInfo.cs
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9\obj\Debug\net10.0\day9.csproj.CoreCompileInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9\obj\Debug\net10.0\day9.sourcelink.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9\obj\Debug\net10.0\day9.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9\obj\Debug\net10.0\refint\day9.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9\obj\Debug\net10.0\day9.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9\obj\Debug\net10.0\day9.genruntimeconfig.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9\obj\Debug\net10.0\ref\day9.dll
