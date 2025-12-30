@@ -1,0 +1,2 @@
+12/30/2025 9:40:49 AM | Account: ACC12345 | BankingSystem.InsufficientBalanceException: Insufficient balance. Available balance: $5,000.00
+   at BankingSystem.BankAccount.Withdraw(Decimal amount) in C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9_new\Program.cs:line 121

@@ -1,0 +1,15 @@
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9_new\bin\Debug\net10.0\day9_new.exe
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9_new\bin\Debug\net10.0\day9_new.deps.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9_new\bin\Debug\net10.0\day9_new.runtimeconfig.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9_new\bin\Debug\net10.0\day9_new.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9_new\bin\Debug\net10.0\day9_new.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9_new\obj\Debug\net10.0\day9_new.GeneratedMSBuildEditorConfig.editorconfig
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9_new\obj\Debug\net10.0\day9_new.AssemblyInfoInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9_new\obj\Debug\net10.0\day9_new.AssemblyInfo.cs
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9_new\obj\Debug\net10.0\day9_new.csproj.CoreCompileInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9_new\obj\Debug\net10.0\day9_new.sourcelink.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9_new\obj\Debug\net10.0\day9_new.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9_new\obj\Debug\net10.0\refint\day9_new.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9_new\obj\Debug\net10.0\day9_new.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9_new\obj\Debug\net10.0\day9_new.genruntimeconfig.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\day9_new\obj\Debug\net10.0\ref\day9_new.dll
