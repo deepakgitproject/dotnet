@@ -1,0 +1,15 @@
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\streamBuzz\bin\Debug\net10.0\streamBuzz.exe
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\streamBuzz\bin\Debug\net10.0\streamBuzz.deps.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\streamBuzz\bin\Debug\net10.0\streamBuzz.runtimeconfig.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\streamBuzz\bin\Debug\net10.0\streamBuzz.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\streamBuzz\bin\Debug\net10.0\streamBuzz.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\streamBuzz\obj\Debug\net10.0\streamBuzz.GeneratedMSBuildEditorConfig.editorconfig
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\streamBuzz\obj\Debug\net10.0\streamBuzz.AssemblyInfoInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\streamBuzz\obj\Debug\net10.0\streamBuzz.AssemblyInfo.cs
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\streamBuzz\obj\Debug\net10.0\streamBuzz.csproj.CoreCompileInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\streamBuzz\obj\Debug\net10.0\streamBuzz.sourcelink.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\streamBuzz\obj\Debug\net10.0\streamBuzz.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\streamBuzz\obj\Debug\net10.0\refint\streamBuzz.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\streamBuzz\obj\Debug\net10.0\streamBuzz.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\streamBuzz\obj\Debug\net10.0\streamBuzz.genruntimeconfig.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\streamBuzz\obj\Debug\net10.0\ref\streamBuzz.dll
