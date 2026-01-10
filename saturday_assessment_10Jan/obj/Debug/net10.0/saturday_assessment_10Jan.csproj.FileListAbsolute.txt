@@ -1,0 +1,15 @@
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\saturday_assessment_10jan\bin\Debug\net10.0\saturday_assessment_10Jan.exe
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\saturday_assessment_10jan\bin\Debug\net10.0\saturday_assessment_10Jan.deps.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\saturday_assessment_10jan\bin\Debug\net10.0\saturday_assessment_10Jan.runtimeconfig.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\saturday_assessment_10jan\bin\Debug\net10.0\saturday_assessment_10Jan.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\saturday_assessment_10jan\bin\Debug\net10.0\saturday_assessment_10Jan.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\saturday_assessment_10jan\obj\Debug\net10.0\saturday_assessment_10Jan.GeneratedMSBuildEditorConfig.editorconfig
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\saturday_assessment_10jan\obj\Debug\net10.0\saturday_assessment_10Jan.AssemblyInfoInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\saturday_assessment_10jan\obj\Debug\net10.0\saturday_assessment_10Jan.AssemblyInfo.cs
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\saturday_assessment_10jan\obj\Debug\net10.0\saturday_assessment_10Jan.csproj.CoreCompileInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\saturday_assessment_10jan\obj\Debug\net10.0\saturday_assessment_10Jan.sourcelink.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\saturday_assessment_10jan\obj\Debug\net10.0\saturday_assessment_10Jan.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\saturday_assessment_10jan\obj\Debug\net10.0\refint\saturday_assessment_10Jan.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\saturday_assessment_10jan\obj\Debug\net10.0\saturday_assessment_10Jan.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\saturday_assessment_10jan\obj\Debug\net10.0\saturday_assessment_10Jan.genruntimeconfig.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\saturday_assessment_10jan\obj\Debug\net10.0\ref\saturday_assessment_10Jan.dll
