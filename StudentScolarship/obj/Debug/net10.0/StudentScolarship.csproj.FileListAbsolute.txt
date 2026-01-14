@@ -1,0 +1,15 @@
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Studentscolarship\bin\Debug\net10.0\StudentScolarship.exe
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Studentscolarship\bin\Debug\net10.0\StudentScolarship.deps.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Studentscolarship\bin\Debug\net10.0\StudentScolarship.runtimeconfig.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Studentscolarship\bin\Debug\net10.0\StudentScolarship.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Studentscolarship\bin\Debug\net10.0\StudentScolarship.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Studentscolarship\obj\Debug\net10.0\StudentScolarship.GeneratedMSBuildEditorConfig.editorconfig
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Studentscolarship\obj\Debug\net10.0\StudentScolarship.AssemblyInfoInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Studentscolarship\obj\Debug\net10.0\StudentScolarship.AssemblyInfo.cs
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Studentscolarship\obj\Debug\net10.0\StudentScolarship.csproj.CoreCompileInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Studentscolarship\obj\Debug\net10.0\StudentScolarship.sourcelink.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Studentscolarship\obj\Debug\net10.0\StudentScolarship.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Studentscolarship\obj\Debug\net10.0\refint\StudentScolarship.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Studentscolarship\obj\Debug\net10.0\StudentScolarship.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Studentscolarship\obj\Debug\net10.0\StudentScolarship.genruntimeconfig.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Studentscolarship\obj\Debug\net10.0\ref\StudentScolarship.dll

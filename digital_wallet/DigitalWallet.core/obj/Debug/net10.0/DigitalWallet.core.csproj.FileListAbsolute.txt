@@ -1,0 +1,12 @@
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\digital_wallet\DigitalWallet.core\bin\Debug\net10.0\DigitalWallet.core.deps.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\digital_wallet\DigitalWallet.core\bin\Debug\net10.0\DigitalWallet.core.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\digital_wallet\DigitalWallet.core\bin\Debug\net10.0\DigitalWallet.core.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\digital_wallet\DigitalWallet.core\obj\Debug\net10.0\DigitalWallet.core.GeneratedMSBuildEditorConfig.editorconfig
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\digital_wallet\DigitalWallet.core\obj\Debug\net10.0\DigitalWallet.core.AssemblyInfoInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\digital_wallet\DigitalWallet.core\obj\Debug\net10.0\DigitalWallet.core.AssemblyInfo.cs
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\digital_wallet\DigitalWallet.core\obj\Debug\net10.0\DigitalWallet.core.csproj.CoreCompileInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\digital_wallet\DigitalWallet.core\obj\Debug\net10.0\DigitalWallet.core.sourcelink.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\digital_wallet\DigitalWallet.core\obj\Debug\net10.0\DigitalWallet.core.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\digital_wallet\DigitalWallet.core\obj\Debug\net10.0\refint\DigitalWallet.core.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\digital_wallet\DigitalWallet.core\obj\Debug\net10.0\DigitalWallet.core.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\digital_wallet\DigitalWallet.core\obj\Debug\net10.0\ref\DigitalWallet.core.dll

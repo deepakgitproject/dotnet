@@ -1,0 +1,15 @@
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\hospital_management\bin\Debug\net10.0\hospital_management.exe
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\hospital_management\bin\Debug\net10.0\hospital_management.deps.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\hospital_management\bin\Debug\net10.0\hospital_management.runtimeconfig.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\hospital_management\bin\Debug\net10.0\hospital_management.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\hospital_management\bin\Debug\net10.0\hospital_management.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\hospital_management\obj\Debug\net10.0\hospital_management.GeneratedMSBuildEditorConfig.editorconfig
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\hospital_management\obj\Debug\net10.0\hospital_management.AssemblyInfoInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\hospital_management\obj\Debug\net10.0\hospital_management.AssemblyInfo.cs
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\hospital_management\obj\Debug\net10.0\hospital_management.csproj.CoreCompileInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\hospital_management\obj\Debug\net10.0\hospital_management.sourcelink.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\hospital_management\obj\Debug\net10.0\hospital_management.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\hospital_management\obj\Debug\net10.0\refint\hospital_management.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\hospital_management\obj\Debug\net10.0\hospital_management.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\hospital_management\obj\Debug\net10.0\hospital_management.genruntimeconfig.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\hospital_management\obj\Debug\net10.0\ref\hospital_management.dll

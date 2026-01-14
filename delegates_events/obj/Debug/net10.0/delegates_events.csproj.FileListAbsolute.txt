@@ -1,0 +1,15 @@
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\delegates_events\bin\Debug\net10.0\delegates_events.exe
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\delegates_events\bin\Debug\net10.0\delegates_events.deps.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\delegates_events\bin\Debug\net10.0\delegates_events.runtimeconfig.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\delegates_events\bin\Debug\net10.0\delegates_events.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\delegates_events\bin\Debug\net10.0\delegates_events.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\delegates_events\obj\Debug\net10.0\delegates_events.GeneratedMSBuildEditorConfig.editorconfig
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\delegates_events\obj\Debug\net10.0\delegates_events.AssemblyInfoInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\delegates_events\obj\Debug\net10.0\delegates_events.AssemblyInfo.cs
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\delegates_events\obj\Debug\net10.0\delegates_events.csproj.CoreCompileInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\delegates_events\obj\Debug\net10.0\delegates_events.sourcelink.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\delegates_events\obj\Debug\net10.0\delegates_events.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\delegates_events\obj\Debug\net10.0\refint\delegates_events.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\delegates_events\obj\Debug\net10.0\delegates_events.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\delegates_events\obj\Debug\net10.0\delegates_events.genruntimeconfig.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\delegates_events\obj\Debug\net10.0\ref\delegates_events.dll
