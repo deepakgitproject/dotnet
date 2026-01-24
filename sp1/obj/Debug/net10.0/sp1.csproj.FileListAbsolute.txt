@@ -1,0 +1,15 @@
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\sp1\obj\Debug\net10.0\sp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\sp1\obj\Debug\net10.0\sp1.AssemblyInfoInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\sp1\obj\Debug\net10.0\sp1.AssemblyInfo.cs
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\sp1\obj\Debug\net10.0\sp1.csproj.CoreCompileInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\sp1\obj\Debug\net10.0\sp1.sourcelink.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\sp1\bin\Debug\net10.0\sp1.exe
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\sp1\bin\Debug\net10.0\sp1.deps.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\sp1\bin\Debug\net10.0\sp1.runtimeconfig.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\sp1\bin\Debug\net10.0\sp1.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\sp1\bin\Debug\net10.0\sp1.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\sp1\obj\Debug\net10.0\sp1.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\sp1\obj\Debug\net10.0\refint\sp1.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\sp1\obj\Debug\net10.0\sp1.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\sp1\obj\Debug\net10.0\sp1.genruntimeconfig.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\sp1\obj\Debug\net10.0\ref\sp1.dll

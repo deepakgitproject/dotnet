@@ -1,0 +1,15 @@
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\bikestore\bin\Debug\net10.0\bikestore.exe
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\bikestore\bin\Debug\net10.0\bikestore.deps.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\bikestore\bin\Debug\net10.0\bikestore.runtimeconfig.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\bikestore\bin\Debug\net10.0\bikestore.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\bikestore\bin\Debug\net10.0\bikestore.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\bikestore\obj\Debug\net10.0\bikestore.GeneratedMSBuildEditorConfig.editorconfig
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\bikestore\obj\Debug\net10.0\bikestore.AssemblyInfoInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\bikestore\obj\Debug\net10.0\bikestore.AssemblyInfo.cs
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\bikestore\obj\Debug\net10.0\bikestore.csproj.CoreCompileInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\bikestore\obj\Debug\net10.0\bikestore.sourcelink.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\bikestore\obj\Debug\net10.0\bikestore.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\bikestore\obj\Debug\net10.0\refint\bikestore.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\bikestore\obj\Debug\net10.0\bikestore.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\bikestore\obj\Debug\net10.0\bikestore.genruntimeconfig.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\bikestore\obj\Debug\net10.0\ref\bikestore.dll

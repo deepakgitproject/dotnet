@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\A_Computer_Main\\main\\all_work\\vs-studio-saves\\dotnet\\FirstApp\\FirstApp.csproj": {}
+    "C:\\computer_main\\main\\all_work\\vs-studio-saves\\dotnet\\day1\\FirstApp.csproj": {}
   },
   "projects": {
-    "C:\\A_Computer_Main\\main\\all_work\\vs-studio-saves\\dotnet\\FirstApp\\FirstApp.csproj": {
+    "C:\\computer_main\\main\\all_work\\vs-studio-saves\\dotnet\\day1\\FirstApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\A_Computer_Main\\main\\all_work\\vs-studio-saves\\dotnet\\FirstApp\\FirstApp.csproj",
+        "projectUniqueName": "C:\\computer_main\\main\\all_work\\vs-studio-saves\\dotnet\\day1\\FirstApp.csproj",
         "projectName": "FirstApp",
-        "projectPath": "C:\\A_Computer_Main\\main\\all_work\\vs-studio-saves\\dotnet\\FirstApp\\FirstApp.csproj",
-        "packagesPath": "C:\\Users\\Hyper\\.nuget\\packages\\",
-        "outputPath": "C:\\A_Computer_Main\\main\\all_work\\vs-studio-saves\\dotnet\\FirstApp\\obj\\",
+        "projectPath": "C:\\computer_main\\main\\all_work\\vs-studio-saves\\dotnet\\day1\\FirstApp.csproj",
+        "packagesPath": "C:\\Users\\Deepak\\.nuget\\packages\\",
+        "outputPath": "C:\\computer_main\\main\\all_work\\vs-studio-saves\\dotnet\\day1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hyper\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Deepak\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

@@ -1,0 +1,15 @@
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Social_media_application\obj\Debug\net10.0\Social_media_application.GeneratedMSBuildEditorConfig.editorconfig
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Social_media_application\obj\Debug\net10.0\Social_media_application.AssemblyInfoInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Social_media_application\obj\Debug\net10.0\Social_media_application.AssemblyInfo.cs
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Social_media_application\obj\Debug\net10.0\Social_media_application.csproj.CoreCompileInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Social_media_application\obj\Debug\net10.0\Social_media_application.sourcelink.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Social_media_application\bin\Debug\net10.0\Social_media_application.exe
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Social_media_application\bin\Debug\net10.0\Social_media_application.deps.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Social_media_application\bin\Debug\net10.0\Social_media_application.runtimeconfig.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Social_media_application\bin\Debug\net10.0\Social_media_application.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Social_media_application\bin\Debug\net10.0\Social_media_application.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Social_media_application\obj\Debug\net10.0\Social_media_application.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Social_media_application\obj\Debug\net10.0\refint\Social_media_application.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Social_media_application\obj\Debug\net10.0\Social_media_application.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Social_media_application\obj\Debug\net10.0\Social_media_application.genruntimeconfig.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\Social_media_application\obj\Debug\net10.0\ref\Social_media_application.dll

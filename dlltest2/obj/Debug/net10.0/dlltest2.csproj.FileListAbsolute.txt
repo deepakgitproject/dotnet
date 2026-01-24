@@ -1,0 +1,15 @@
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\dlltest2\bin\Debug\net10.0\dlltest2.exe
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\dlltest2\bin\Debug\net10.0\dlltest2.deps.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\dlltest2\bin\Debug\net10.0\dlltest2.runtimeconfig.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\dlltest2\bin\Debug\net10.0\dlltest2.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\dlltest2\bin\Debug\net10.0\dlltest2.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\dlltest2\obj\Debug\net10.0\dlltest2.GeneratedMSBuildEditorConfig.editorconfig
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\dlltest2\obj\Debug\net10.0\dlltest2.AssemblyInfoInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\dlltest2\obj\Debug\net10.0\dlltest2.AssemblyInfo.cs
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\dlltest2\obj\Debug\net10.0\dlltest2.csproj.CoreCompileInputs.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\dlltest2\obj\Debug\net10.0\dlltest2.sourcelink.json
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\dlltest2\obj\Debug\net10.0\dlltest2.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\dlltest2\obj\Debug\net10.0\refint\dlltest2.dll
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\dlltest2\obj\Debug\net10.0\dlltest2.pdb
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\dlltest2\obj\Debug\net10.0\dlltest2.genruntimeconfig.cache
+C:\A_Computer_Main\main\all_work\vs-studio-saves\dotnet\dlltest2\obj\Debug\net10.0\ref\dlltest2.dll
