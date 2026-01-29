@@ -1,0 +1,15 @@
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_brains\Custom_Sorting\bin\Debug\net10.0\Custom_Sorting.exe
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_brains\Custom_Sorting\bin\Debug\net10.0\Custom_Sorting.deps.json
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_brains\Custom_Sorting\bin\Debug\net10.0\Custom_Sorting.runtimeconfig.json
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_brains\Custom_Sorting\bin\Debug\net10.0\Custom_Sorting.dll
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_brains\Custom_Sorting\bin\Debug\net10.0\Custom_Sorting.pdb
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_brains\Custom_Sorting\obj\Debug\net10.0\Custom_Sorting.GeneratedMSBuildEditorConfig.editorconfig
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_brains\Custom_Sorting\obj\Debug\net10.0\Custom_Sorting.AssemblyInfoInputs.cache
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_brains\Custom_Sorting\obj\Debug\net10.0\Custom_Sorting.AssemblyInfo.cs
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_brains\Custom_Sorting\obj\Debug\net10.0\Custom_Sorting.csproj.CoreCompileInputs.cache
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_brains\Custom_Sorting\obj\Debug\net10.0\Custom_Sorting.sourcelink.json
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_brains\Custom_Sorting\obj\Debug\net10.0\Custom_Sorting.dll
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_brains\Custom_Sorting\obj\Debug\net10.0\refint\Custom_Sorting.dll
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_brains\Custom_Sorting\obj\Debug\net10.0\Custom_Sorting.pdb
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_brains\Custom_Sorting\obj\Debug\net10.0\Custom_Sorting.genruntimeconfig.cache
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_brains\Custom_Sorting\obj\Debug\net10.0\ref\Custom_Sorting.dll
