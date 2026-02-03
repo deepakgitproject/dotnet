@@ -1,0 +1,6 @@
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_Brains\BankAccountTests\obj\Debug\net10.0\BankAccountTests.csproj.AssemblyReference.cache
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_Brains\BankAccountTests\obj\Debug\net10.0\BankAccountTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_Brains\BankAccountTests\obj\Debug\net10.0\BankAccountTests.AssemblyInfoInputs.cache
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_Brains\BankAccountTests\obj\Debug\net10.0\BankAccountTests.AssemblyInfo.cs
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_Brains\BankAccountTests\obj\Debug\net10.0\BankAccountTests.csproj.CoreCompileInputs.cache
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_Brains\BankAccountTests\obj\Debug\net10.0\BankAccountTests.sourcelink.json

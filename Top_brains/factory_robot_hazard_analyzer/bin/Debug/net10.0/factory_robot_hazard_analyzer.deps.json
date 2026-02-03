@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "factory_robot_hazard_analyzer/1.0.0": {
+        "runtime": {
+          "factory_robot_hazard_analyzer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "factory_robot_hazard_analyzer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

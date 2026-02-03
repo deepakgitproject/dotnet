@@ -1,0 +1,5 @@
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_Brains\Nunit\obj\Debug\net10.0\Nunit.GeneratedMSBuildEditorConfig.editorconfig
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_Brains\Nunit\obj\Debug\net10.0\Nunit.AssemblyInfoInputs.cache
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_Brains\Nunit\obj\Debug\net10.0\Nunit.AssemblyInfo.cs
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_Brains\Nunit\obj\Debug\net10.0\Nunit.csproj.CoreCompileInputs.cache
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Top_Brains\Nunit\obj\Debug\net10.0\Nunit.sourcelink.json

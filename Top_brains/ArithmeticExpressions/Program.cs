@@ -40,4 +40,23 @@ public class Solution
 
         return result.ToString();
     }
+
+    public static void Main()
+    {
+        Console.Write("Enter expression (a op b): ");
+        string expression = Console.ReadLine();
+
+        string output = EvaluateExpression(expression);
+        Console.WriteLine("Result: " + output);
+    }
 }
+
+/*
+▶️ Sample Execution
+
+Input:
+Enter expression (a op b): 10 / 2
+
+Output:
+Result: 5
+*/
