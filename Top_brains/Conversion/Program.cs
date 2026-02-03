@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿using System;
+=======
+using System;
+>>>>>>> 200c4495cc9da882afb0c5e557db19a5a821c91d
 
 public class Solution
 {
