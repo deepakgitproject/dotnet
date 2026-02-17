@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Regestry_working/1.0.0": {
+        "runtime": {
+          "Regestry_working.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Regestry_working/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

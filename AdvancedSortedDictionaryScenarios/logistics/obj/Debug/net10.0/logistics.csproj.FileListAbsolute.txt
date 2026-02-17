@@ -1,0 +1,15 @@
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\logistics\bin\Debug\net10.0\logistics.exe
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\logistics\bin\Debug\net10.0\logistics.deps.json
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\logistics\bin\Debug\net10.0\logistics.runtimeconfig.json
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\logistics\bin\Debug\net10.0\logistics.dll
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\logistics\bin\Debug\net10.0\logistics.pdb
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\logistics\obj\Debug\net10.0\logistics.GeneratedMSBuildEditorConfig.editorconfig
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\logistics\obj\Debug\net10.0\logistics.AssemblyInfoInputs.cache
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\logistics\obj\Debug\net10.0\logistics.AssemblyInfo.cs
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\logistics\obj\Debug\net10.0\logistics.csproj.CoreCompileInputs.cache
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\logistics\obj\Debug\net10.0\logistics.sourcelink.json
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\logistics\obj\Debug\net10.0\logistics.dll
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\logistics\obj\Debug\net10.0\refint\logistics.dll
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\logistics\obj\Debug\net10.0\logistics.pdb
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\logistics\obj\Debug\net10.0\logistics.genruntimeconfig.cache
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\logistics\obj\Debug\net10.0\ref\logistics.dll

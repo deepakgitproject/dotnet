@@ -1,0 +1,15 @@
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\Logistics_question\bin\Debug\net10.0\Logistics_question.exe
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\Logistics_question\bin\Debug\net10.0\Logistics_question.deps.json
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\Logistics_question\bin\Debug\net10.0\Logistics_question.runtimeconfig.json
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\Logistics_question\bin\Debug\net10.0\Logistics_question.dll
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\Logistics_question\bin\Debug\net10.0\Logistics_question.pdb
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\Logistics_question\obj\Debug\net10.0\Logistics_question.GeneratedMSBuildEditorConfig.editorconfig
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\Logistics_question\obj\Debug\net10.0\Logistics_question.AssemblyInfoInputs.cache
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\Logistics_question\obj\Debug\net10.0\Logistics_question.AssemblyInfo.cs
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\Logistics_question\obj\Debug\net10.0\Logistics_question.csproj.CoreCompileInputs.cache
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\Logistics_question\obj\Debug\net10.0\Logistics_question.sourcelink.json
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\Logistics_question\obj\Debug\net10.0\Logistics_question.dll
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\Logistics_question\obj\Debug\net10.0\refint\Logistics_question.dll
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\Logistics_question\obj\Debug\net10.0\Logistics_question.pdb
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\Logistics_question\obj\Debug\net10.0\Logistics_question.genruntimeconfig.cache
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\Logistics_question\obj\Debug\net10.0\ref\Logistics_question.dll

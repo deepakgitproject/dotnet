@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\A_Computer_Main\\main\\all_work\\vs-studio-saves\\dotnet_backup\\dotnet\\digital_wallet\\DigitalWallet\\DigitalWallet.csproj": {}
+    "C:\\computer_main\\main\\all_work\\vs-studio-saves\\dotnet\\digital_wallet\\DigitalWallet\\DigitalWallet.csproj": {}
   },
   "projects": {
-    "C:\\A_Computer_Main\\main\\all_work\\vs-studio-saves\\dotnet_backup\\dotnet\\digital_wallet\\DigitalWallet.core\\DigitalWallet.core.csproj": {
+    "C:\\computer_main\\main\\all_work\\vs-studio-saves\\dotnet\\digital_wallet\\DigitalWallet.core\\DigitalWallet.core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\A_Computer_Main\\main\\all_work\\vs-studio-saves\\dotnet_backup\\dotnet\\digital_wallet\\DigitalWallet.core\\DigitalWallet.core.csproj",
+        "projectUniqueName": "C:\\computer_main\\main\\all_work\\vs-studio-saves\\dotnet\\digital_wallet\\DigitalWallet.core\\DigitalWallet.core.csproj",
         "projectName": "DigitalWallet.core",
-        "projectPath": "C:\\A_Computer_Main\\main\\all_work\\vs-studio-saves\\dotnet_backup\\dotnet\\digital_wallet\\DigitalWallet.core\\DigitalWallet.core.csproj",
-        "packagesPath": "C:\\Users\\Hyper\\.nuget\\packages\\",
-        "outputPath": "C:\\A_Computer_Main\\main\\all_work\\vs-studio-saves\\dotnet_backup\\dotnet\\digital_wallet\\DigitalWallet.core\\obj\\",
+        "projectPath": "C:\\computer_main\\main\\all_work\\vs-studio-saves\\dotnet\\digital_wallet\\DigitalWallet.core\\DigitalWallet.core.csproj",
+        "packagesPath": "C:\\Users\\Deepak\\.nuget\\packages\\",
+        "outputPath": "C:\\computer_main\\main\\all_work\\vs-studio-saves\\dotnet\\digital_wallet\\DigitalWallet.core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Hyper\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Deepak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -337,30 +344,37 @@
         }
       }
     },
-    "C:\\A_Computer_Main\\main\\all_work\\vs-studio-saves\\dotnet_backup\\dotnet\\digital_wallet\\DigitalWallet\\DigitalWallet.csproj": {
+    "C:\\computer_main\\main\\all_work\\vs-studio-saves\\dotnet\\digital_wallet\\DigitalWallet\\DigitalWallet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\A_Computer_Main\\main\\all_work\\vs-studio-saves\\dotnet_backup\\dotnet\\digital_wallet\\DigitalWallet\\DigitalWallet.csproj",
+        "projectUniqueName": "C:\\computer_main\\main\\all_work\\vs-studio-saves\\dotnet\\digital_wallet\\DigitalWallet\\DigitalWallet.csproj",
         "projectName": "DigitalWallet",
-        "projectPath": "C:\\A_Computer_Main\\main\\all_work\\vs-studio-saves\\dotnet_backup\\dotnet\\digital_wallet\\DigitalWallet\\DigitalWallet.csproj",
-        "packagesPath": "C:\\Users\\Hyper\\.nuget\\packages\\",
-        "outputPath": "C:\\A_Computer_Main\\main\\all_work\\vs-studio-saves\\dotnet_backup\\dotnet\\digital_wallet\\DigitalWallet\\obj\\",
+        "projectPath": "C:\\computer_main\\main\\all_work\\vs-studio-saves\\dotnet\\digital_wallet\\DigitalWallet\\DigitalWallet.csproj",
+        "packagesPath": "C:\\Users\\Deepak\\.nuget\\packages\\",
+        "outputPath": "C:\\computer_main\\main\\all_work\\vs-studio-saves\\dotnet\\digital_wallet\\DigitalWallet\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Hyper\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Deepak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\A_Computer_Main\\main\\all_work\\vs-studio-saves\\dotnet_backup\\dotnet\\digital_wallet\\DigitalWallet.core\\DigitalWallet.core.csproj": {
-                "projectPath": "C:\\A_Computer_Main\\main\\all_work\\vs-studio-saves\\dotnet_backup\\dotnet\\digital_wallet\\DigitalWallet.core\\DigitalWallet.core.csproj"
+              "C:\\computer_main\\main\\all_work\\vs-studio-saves\\dotnet\\digital_wallet\\DigitalWallet.core\\DigitalWallet.core.csproj": {
+                "projectPath": "C:\\computer_main\\main\\all_work\\vs-studio-saves\\dotnet\\digital_wallet\\DigitalWallet.core\\DigitalWallet.core.csproj"
               }
             }
           }
@@ -396,7 +410,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

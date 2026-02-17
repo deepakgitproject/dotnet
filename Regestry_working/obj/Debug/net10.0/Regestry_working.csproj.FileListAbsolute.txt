@@ -1,0 +1,15 @@
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Regestry_working\bin\Debug\net10.0\Regestry_working.exe
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Regestry_working\bin\Debug\net10.0\Regestry_working.deps.json
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Regestry_working\bin\Debug\net10.0\Regestry_working.runtimeconfig.json
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Regestry_working\bin\Debug\net10.0\Regestry_working.dll
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Regestry_working\bin\Debug\net10.0\Regestry_working.pdb
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Regestry_working\obj\Debug\net10.0\Regestry_working.GeneratedMSBuildEditorConfig.editorconfig
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Regestry_working\obj\Debug\net10.0\Regestry_working.AssemblyInfoInputs.cache
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Regestry_working\obj\Debug\net10.0\Regestry_working.AssemblyInfo.cs
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Regestry_working\obj\Debug\net10.0\Regestry_working.csproj.CoreCompileInputs.cache
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Regestry_working\obj\Debug\net10.0\Regestry_working.sourcelink.json
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Regestry_working\obj\Debug\net10.0\Regestry_working.dll
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Regestry_working\obj\Debug\net10.0\refint\Regestry_working.dll
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Regestry_working\obj\Debug\net10.0\Regestry_working.pdb
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Regestry_working\obj\Debug\net10.0\Regestry_working.genruntimeconfig.cache
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\Regestry_working\obj\Debug\net10.0\ref\Regestry_working.dll

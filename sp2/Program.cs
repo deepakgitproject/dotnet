@@ -429,3 +429,221 @@
 // }
 
 
+// using System;
+// using Microsoft.Data.SqlClient;
+
+// class Program
+// {
+//     static void Main()
+//     {
+//         string connectionString =
+//         "Data Source=HYPER\\SQLEXPRESS;Initial Catalog=adodotnet;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;";
+
+//         using (SqlConnection connection = new SqlConnection(connectionString))
+//         {
+//             try
+//             {
+//                 connection.Open();
+//                 Console.WriteLine("Connection successful!");
+
+//                 string query = "SELECT Name,Department FROM CollegeMaster1";
+
+//                 using (SqlCommand command = new SqlCommand(query, connection))
+//                 {
+//                     using (SqlDataReader reader = command.ExecuteReader())
+//                     {
+//                         while (reader.Read())
+//                         {
+//                             Console.WriteLine($"{reader["Name"]} {reader["Department"]}");
+//                         }
+//                     }
+//                 }
+//             }
+//             catch (SqlException ex)
+//             {
+//                 Console.WriteLine($"Error: {ex.Message}");
+//             }
+//         }
+//     }
+// }
+
+
+// using System;
+// using System.Collections.Generic;
+
+// public class Program
+// {
+//     public static Stack<Order> OrderStack {get;set;}=new Stack<Order>();
+//     public static void Main()
+//     {
+//         Order order=new Order();
+//         int OrderId=Convert.ToInt32(Console.ReadLine());
+//         string CustomerName=Console.ReadLine();
+//         string Item=Console.ReadLine();
+//         order.AddOrderDetails(OrderId, CustomerName, Item);
+//         string result=order.GetOrderDetails();
+//         Console.WriteLine(result);
+//         order.RemoveOrderDetails();
+//     }
+// }
+
+// public class Order
+// {
+//     public int OrderId {get;set;}
+//     public string CustomerName {get;set;}
+//     public string Item {get;set;}
+//     public Stack<Order> AddOrderDetails(int orderId, string customerName, string item)
+//     {
+//         Order order=new Order();
+//         order.OrderId=orderId;
+//         order.CustomerName=customerName;
+//         order.Item=item;
+//         Program.OrderStack.Push(order);
+//         return Program.OrderStack;
+//     }
+
+//     public string GetOrderDetails()
+//     {
+//         if (Program.OrderStack.Count==0)
+//         {
+//             return "No Orders Available";
+//         }
+//         Order order=Program.OrderStack.Peek();
+//         return order.OrderId+" "+order.CustomerName+" "+order.Item;
+//     }
+//     public Stack<Order>RemoveOrderDetails()
+//     {
+//         if(Program.OrderStack.Count>0)
+//         {
+//             Program.OrderStack.Pop();
+//         }
+//         return Program.OrderStack;
+//     }
+// }
+
+// using System;
+// using System.Collections.Generic;
+
+// public class Program
+// {
+//     public static Stack<Order> OrderStack {get;set;}=new Stack<Order>();
+//     public static void Main()
+//     {
+//         Order order=new Order();
+//         bool run=true;
+//         while (run)
+//         {
+//             Console.WriteLine("Add Order");
+//             Console.WriteLine("2. Get Latest Order");
+//             Console.WriteLine("3. Show All Orders");
+//             Console.WriteLine("4. Remove Latest Order");
+//             Console.WriteLine("5. Exit");
+//             int choice=Convert.ToInt32(Console.ReadLine());
+//             switch (choice)
+//             {
+//                 case 1:
+//                     Console.WriteLine("Enter Order Id:");
+//                     int OrderId=Convert.ToInt32(Console.ReadLine());
+//                     Console.WriteLine("Enter Customer Name:");
+//                     string CustomerName=Console.ReadLine();
+//                     Console.WriteLine("Enter Item:");
+//                     string Item=Console.ReadLine();
+//                     order.AddOrderDetails(OrderId,CustomerName,Item);
+//                     Console.WriteLine("Order Added");
+//                     break;
+//                 case 2:
+//                     Console.WriteLine(order.GetOrderDetails());
+//                     break;
+//                 case 3:
+//                     order.ShowAllOrders();
+//                     break;
+//                 case 4:
+//                     order.RemoveOrderDetails();
+//                     Console.WriteLine("Latest Order Removed");
+//                     break;
+//                 case 5:
+//                     run = false;
+//                     break;
+//                 default:
+//                     Console.WriteLine("Invalid Choice");
+//                     break;
+//             }
+//         }
+//     }
+// }
+// public class Order
+// {
+//     public int OrderId {get;set;}
+//     public string CustomerName {get;set;}
+//     public string Item {get;set;}
+//     public Stack<Order> AddOrderDetails(int orderId,string customerName,string item)
+//     {
+//         Order order=new Order();
+//         order.OrderId=orderId;
+//         order.CustomerName=customerName;
+//         order.Item=item;
+//         Program.OrderStack.Push(order);
+//         return Program.OrderStack;
+//     }
+//     public string GetOrderDetails()
+//     {
+//         if (Program.OrderStack.Count==0){
+//             return "No Orders Available";
+//         }
+
+//         Order order = Program.OrderStack.Peek();
+//         return order.OrderId + " " + order.CustomerName + " " + order.Item;
+//     }
+//     public Stack<Order> RemoveOrderDetails(){
+//         if (Program.OrderStack.Count>0){
+//             Program.OrderStack.Pop();
+//         }
+//         return Program.OrderStack;
+//     }
+//     public void ShowAllOrders()
+//     {
+//         if (Program.OrderStack.Count==0){
+//             Console.WriteLine("No Orders Available");
+//             return;
+//         }
+//         foreach (Order order in Program.OrderStack){
+//             Console.WriteLine(order.OrderId+" " +order.CustomerName+ " " +order.Item);
+//         }
+//     }
+// }
+
+
+using System;
+
+// using System;
+
+class Program
+{
+    static void Main()
+    {
+        int[] arr = {1,0,0,0,1,2,2,3,4,0};
+        int i = 0;
+        int j = 0;
+        while (i < arr.Length)
+        {
+            if (arr[i] != 0)
+            {
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+                j++;
+            }
+            i++;
+        }
+        int k = 0;
+        while (k < arr.Length)
+        {
+            Console.Write(arr[k] + " ");
+            k++;
+        }
+    }
+}
+
+
+
+
