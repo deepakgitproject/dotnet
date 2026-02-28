@@ -74,8 +74,34 @@
 // }
 
 
+// using System;
+// using System.Collections;
+// using System.Collections.Generic;
+// using System.Linq;
+
+// class Program
+// {
+//     static void Main()
+//     {
+//         ArrayList list = new ArrayList() 
+//         { 
+//             1, "Deepak", "Btech", 20000, 50, "Hello" 
+//         };
+
+//         IEnumerable<int> intValues = list.OfType<int>();
+
+//         Console.WriteLine("Only integers:");
+
+//         foreach (int i in intValues)
+//         {
+//             Console.WriteLine(i);
+//         }
+//     }
+// }
+
+
+
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -83,18 +109,17 @@ class Program
 {
     static void Main()
     {
-        ArrayList list = new ArrayList() 
-        { 
-            1, "Deepak", "Btech", 20000, 50, "Hello" 
-        };
+        List<int> numbers = new List<int> { 1, 2, 3, 4 };
 
-        IEnumerable<int> intValues = list.OfType<int>();
+        IEnumerable<int> result = numbers.Where(x => x > 2);
 
-        Console.WriteLine("Only integers:");
+        //var result = numbers.Where(x => x > 2).ToList();
 
-        foreach (int i in intValues)
+        numbers.Add(10);
+
+        foreach (var n in result)
         {
-            Console.WriteLine(i);
+            Console.WriteLine(n);
         }
     }
 }

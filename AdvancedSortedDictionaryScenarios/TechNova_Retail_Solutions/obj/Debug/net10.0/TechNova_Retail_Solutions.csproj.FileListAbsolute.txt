@@ -1,0 +1,15 @@
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\TechNova_Retail_Solutions\bin\Debug\net10.0\TechNova_Retail_Solutions.exe
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\TechNova_Retail_Solutions\bin\Debug\net10.0\TechNova_Retail_Solutions.deps.json
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\TechNova_Retail_Solutions\bin\Debug\net10.0\TechNova_Retail_Solutions.runtimeconfig.json
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\TechNova_Retail_Solutions\bin\Debug\net10.0\TechNova_Retail_Solutions.dll
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\TechNova_Retail_Solutions\bin\Debug\net10.0\TechNova_Retail_Solutions.pdb
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\TechNova_Retail_Solutions\obj\Debug\net10.0\TechNova_Retail_Solutions.GeneratedMSBuildEditorConfig.editorconfig
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\TechNova_Retail_Solutions\obj\Debug\net10.0\TechNova_Retail_Solutions.AssemblyInfoInputs.cache
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\TechNova_Retail_Solutions\obj\Debug\net10.0\TechNova_Retail_Solutions.AssemblyInfo.cs
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\TechNova_Retail_Solutions\obj\Debug\net10.0\TechNova_Retail_Solutions.csproj.CoreCompileInputs.cache
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\TechNova_Retail_Solutions\obj\Debug\net10.0\TechNova_Retail_Solutions.sourcelink.json
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\TechNova_Retail_Solutions\obj\Debug\net10.0\TechNova_Retail_Solutions.dll
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\TechNova_Retail_Solutions\obj\Debug\net10.0\refint\TechNova_Retail_Solutions.dll
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\TechNova_Retail_Solutions\obj\Debug\net10.0\TechNova_Retail_Solutions.pdb
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\TechNova_Retail_Solutions\obj\Debug\net10.0\TechNova_Retail_Solutions.genruntimeconfig.cache
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\AdvancedSortedDictionaryScenarios\TechNova_Retail_Solutions\obj\Debug\net10.0\ref\TechNova_Retail_Solutions.dll

@@ -1,0 +1,277 @@
+﻿@{
+    ViewData["Title"] = "LPU - Welcome";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LPU Student Registration</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* ── NAVBAR ── */
+        .navbar {
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(10px);
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #FFD700;
+        }
+
+        .navbar .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .navbar .logo img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 2px solid #FFD700;
+        }
+
+        .navbar .logo-text h1 {
+            color: #FFD700;
+            font-size: 22px;
+            font-weight: 800;
+            letter-spacing: 1px;
+        }
+
+        .navbar .logo-text p {
+            color: #ccc;
+            font-size: 11px;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 14px;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover { color: #FFD700; }
+
+        /* ── HERO SECTION ── */
+        .hero {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 20px;
+        }
+
+        .hero-card {
+            background: rgba(255,255,255,0.07);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255,215,0,0.3);
+            border-radius: 24px;
+            padding: 60px 50px;
+            text-align: center;
+            max-width: 550px;
+            width: 100%;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.4);
+        }
+
+        .university-badge {
+            background: linear-gradient(135deg, #6A0DAD, #9B59B6);
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            border: 3px solid #FFD700;
+            font-size: 36px;
+        }
+
+        .hero-card h2 {
+            color: #FFD700;
+            font-size: 28px;
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
+
+        .hero-card h3 {
+            color: #fff;
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+
+        .divider {
+            height: 2px;
+            background: linear-gradient(to right, transparent, #FFD700, transparent);
+            margin: 20px 0;
+        }
+
+        .hero-card p {
+            color: #aaa;
+            font-size: 14px;
+            margin-bottom: 35px;
+            line-height: 1.6;
+        }
+
+        /* ── BUTTONS ── */
+        .btn-group {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 14px 40px;
+            border-radius: 50px;
+            font-size: 15px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-register {
+            background: linear-gradient(135deg, #FFD700, #FFA500);
+            color: #1a1a2e;
+            box-shadow: 0 4px 20px rgba(255,215,0,0.4);
+        }
+
+        .btn-register:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(255,215,0,0.6);
+        }
+
+        .btn-login {
+            background: linear-gradient(135deg, #6A0DAD, #9B59B6);
+            color: #fff;
+            box-shadow: 0 4px 20px rgba(106,13,173,0.4);
+        }
+
+        .btn-login:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(106,13,173,0.6);
+        }
+
+        /* ── STATS BAR ── */
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-item h4 {
+            color: #FFD700;
+            font-size: 22px;
+            font-weight: 800;
+        }
+
+        .stat-item p {
+            color: #aaa;
+            font-size: 11px;
+            margin: 0;
+        }
+
+        /* ── FOOTER ── */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #555;
+            font-size: 12px;
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .footer span { color: #FFD700; }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">
+            <div style="width:50px;height:50px;background:linear-gradient(135deg,#6A0DAD,#FFD700);border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;color:white;font-size:16px;border:2px solid #FFD700;">LPU</div>
+            <div class="logo-text">
+                <h1>LPU UNIVERSITY</h1>
+                <p>Lovely Professional University</p>
+            </div>
+        </div>
+        <div class="nav-links">
+            <a href="#"><i class="fas fa-home"></i> Home</a>
+            <a href="#"><i class="fas fa-phone"></i> Contact</a>
+            <a href="#"><i class="fas fa-info-circle"></i> About</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-card">
+            <div class="university-badge">🎓</div>
+            <h2>LPU STUDENT PORTAL</h2>
+            <h3>Lovely Professional University</h3>
+            <div class="divider"></div>
+            <p>Welcome to the official student registration portal. Register as a new student or login to access your dashboard, ID card, and manage your profile.</p>
+
+            <div class="btn-group">
+                <a href="/Student/Register" class="btn btn-register">
+                    <i class="fas fa-user-plus"></i> New Registration
+                </a>
+                <a href="/Student/Login" class="btn btn-login">
+                    <i class="fas fa-sign-in-alt"></i> Student Login
+                </a>
+            </div>
+
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <h4>30K+</h4>
+                    <p>Students</p>
+                </div>
+                <div class="stat-item">
+                    <h4>200+</h4>
+                    <p>Courses</p>
+                </div>
+                <div class="stat-item">
+                    <h4>50+</h4>
+                    <p>Departments</p>
+                </div>
+                <div class="stat-item">
+                    <h4>100%</h4>
+                    <p>Digital Campus</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2025 <span>Lovely Professional University</span> — Student Registration System</p>
+    </footer>
+
+</body>
+</html>

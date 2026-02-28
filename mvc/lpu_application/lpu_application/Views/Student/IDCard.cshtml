@@ -1,0 +1,463 @@
+﻿@model lpu_application.Models.Student
+@{
+    ViewData["Title"] = "ID Card";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LPU - Student ID Card</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .top-bar {
+            width: 100%;
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(10px);
+            border-bottom: 2px solid #FFD700;
+            padding: 12px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: -20px -20px 40px -20px;
+            width: calc(100% + 40px);
+        }
+
+            .top-bar .brand {
+                color: #FFD700;
+                font-weight: 800;
+                font-size: 20px;
+            }
+
+            .top-bar a {
+                color: #ccc;
+                text-decoration: none;
+                font-size: 13px;
+            }
+
+                .top-bar a:hover {
+                    color: #FFD700;
+                }
+
+        .page-title {
+            color: #FFD700;
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        /* ── ID CARD ── */
+        .id-card-wrapper {
+            perspective: 1000px;
+            margin-bottom: 30px;
+        }
+
+        .id-card {
+            width: 380px;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 30px 80px rgba(0,0,0,0.6);
+            position: relative;
+        }
+
+        /* CARD HEADER */
+        .card-header {
+            background: linear-gradient(135deg, #4A0080, #6A0DAD, #8B00CC);
+            padding: 18px 20px 14px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+            .card-header::before {
+                content: '';
+                position: absolute;
+                top: -30px;
+                right: -30px;
+                width: 100px;
+                height: 100px;
+                background: rgba(255,215,0,0.1);
+                border-radius: 50%;
+            }
+
+            .card-header::after {
+                content: '';
+                position: absolute;
+                bottom: -20px;
+                left: -20px;
+                width: 80px;
+                height: 80px;
+                background: rgba(255,255,255,0.05);
+                border-radius: 50%;
+            }
+
+        .univ-logo-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 6px;
+        }
+
+        .logo-circle {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #FFD700, #FFA500);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 900;
+            font-size: 13px;
+            color: #1a1a2e;
+        }
+
+        .univ-name {
+            color: #FFD700;
+            font-size: 16px;
+            font-weight: 800;
+            letter-spacing: 1.5px;
+        }
+
+        .univ-full {
+            color: rgba(255,255,255,0.75);
+            font-size: 10px;
+            letter-spacing: 0.5px;
+        }
+
+        .card-type-badge {
+            background: linear-gradient(135deg, #FFD700, #FFA500);
+            color: #1a1a2e;
+            font-size: 10px;
+            font-weight: 700;
+            padding: 3px 14px;
+            border-radius: 50px;
+            letter-spacing: 1.5px;
+            display: inline-block;
+            margin-top: 8px;
+        }
+
+        /* CARD BODY */
+        .card-body {
+            background: linear-gradient(180deg, #f8f9ff 0%, #ffffff 100%);
+            padding: 20px;
+        }
+
+        .student-photo-row {
+            display: flex;
+            gap: 16px;
+            align-items: flex-start;
+            margin-bottom: 16px;
+        }
+
+        .student-photo {
+            width: 85px;
+            height: 100px;
+            border-radius: 10px;
+            object-fit: cover;
+            border: 3px solid #6A0DAD;
+            flex-shrink: 0;
+        }
+
+        .student-photo-placeholder {
+            width: 85px;
+            height: 100px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #6A0DAD, #9B59B6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 35px;
+            border: 3px solid #6A0DAD;
+            flex-shrink: 0;
+        }
+
+        .student-basic h3 {
+            color: #1a1a2e;
+            font-size: 16px;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 6px;
+        }
+
+        .course-tag {
+            background: linear-gradient(135deg, #6A0DAD, #9B59B6);
+            color: #fff;
+            font-size: 10px;
+            font-weight: 600;
+            padding: 3px 10px;
+            border-radius: 50px;
+            display: inline-block;
+            margin-bottom: 8px;
+        }
+
+        .student-basic p {
+            color: #555;
+            font-size: 11px;
+            line-height: 1.8;
+        }
+
+            .student-basic p i {
+                width: 14px;
+                color: #6A0DAD;
+            }
+
+        /* REG NO BAR */
+        .reg-bar {
+            background: linear-gradient(135deg, #1a1a2e, #0f3460);
+            border-radius: 10px;
+            padding: 10px 14px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 14px;
+        }
+
+            .reg-bar .label {
+                color: rgba(255,255,255,0.6);
+                font-size: 9px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+
+            .reg-bar .value {
+                color: #FFD700;
+                font-size: 15px;
+                font-weight: 800;
+                letter-spacing: 1.5px;
+            }
+
+        /* BARCODE */
+        .barcode-section {
+            text-align: center;
+            padding: 10px 0 5px;
+            border-top: 1px dashed #ddd;
+        }
+
+        .barcode-lines {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            gap: 2px;
+            height: 35px;
+            margin-bottom: 5px;
+        }
+
+            .barcode-lines span {
+                background: #1a1a2e;
+                width: 2px;
+                display: inline-block;
+            }
+
+        .barcode-text {
+            color: #888;
+            font-size: 9px;
+            letter-spacing: 2px;
+        }
+
+        /* CARD FOOTER */
+        .card-footer {
+            background: linear-gradient(135deg, #FFD700, #FFA500);
+            padding: 8px 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+            .card-footer span {
+                font-size: 9px;
+                font-weight: 700;
+                color: #1a1a2e;
+                letter-spacing: 0.5px;
+            }
+
+        /* ACTION BUTTONS */
+        .action-row {
+            display: flex;
+            gap: 14px;
+            margin-top: 10px;
+        }
+
+        .btn-print {
+            padding: 13px 30px;
+            background: linear-gradient(135deg, #FFD700, #FFA500);
+            color: #1a1a2e;
+            border: none;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+            .btn-print:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 8px 25px rgba(255,215,0,0.5);
+            }
+
+        .btn-back-dash {
+            padding: 13px 30px;
+            background: rgba(255,255,255,0.08);
+            color: #ccc;
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s;
+        }
+
+            .btn-back-dash:hover {
+                background: rgba(255,255,255,0.15);
+                color: #fff;
+            }
+
+        /* PRINT STYLES */
+        @@media print {
+            body {
+                background: white;
+            }
+
+            .top-bar, .page-title, .action-row {
+                display: none !important;
+            }
+
+            .id-card {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top-bar">
+        <span class="brand">🎓 LPU UNIVERSITY</span>
+        <a href="/Student/Dashboard"><i class="fas fa-arrow-left"></i> Back to Dashboard</a>
+    </div>
+
+    <p class="page-title">🪪 YOUR STUDENT ID CARD</p>
+
+    <!-- ID CARD -->
+    <div class="id-card-wrapper">
+        <div class="id-card" id="idCard">
+
+            <!-- HEADER -->
+            <div class="card-header">
+                <div class="univ-logo-row">
+                    <div class="logo-circle">LPU</div>
+                    <div>
+                        <div class="univ-name">LPU UNIVERSITY</div>
+                        <div class="univ-full">Lovely Professional University • Phagwara, Punjab</div>
+                    </div>
+                </div>
+                <div class="card-type-badge">STUDENT IDENTITY CARD</div>
+            </div>
+
+            <!-- BODY -->
+            <div class="card-body">
+
+                <div class="student-photo-row">
+                    @if (!string.IsNullOrEmpty(Model.PhotoPath))
+                    {
+                        <img src="@Model.PhotoPath" class="student-photo" alt="Student Photo" />
+                    }
+                    else
+                    {
+                        <div class="student-photo-placeholder">👤</div>
+                    }
+                    <div class="student-basic">
+                        <h3>@Model.FirstName @Model.LastName</h3>
+                        <div class="course-tag">@Model.Course — @Model.Branch</div>
+                        <p>
+                            <i class="fas fa-envelope"></i> @Model.Email<br />
+                            <i class="fas fa-phone"></i> @(Model.Phone ?? "N/A")<br />
+                            <i class="fas fa-birthday-cake"></i>
+                            @(Model.DateOfBirth?.ToString("dd MMM yyyy") ?? "N/A")<br />
+                            <i class="fas fa-venus-mars"></i> @(Model.Gender ?? "N/A")
+                        </p>
+                    </div>
+                </div>
+
+                <!-- REG NO BAR -->
+                <div class="reg-bar">
+                    <div>
+                        <div class="label">Registration Number</div>
+                        <div class="value">@Model.RegistrationNo</div>
+                    </div>
+                    <div style="text-align:right;">
+                        <div class="label">Valid Until</div>
+                        <div class="value" style="font-size:13px;">
+                            @(Model.CreatedAt.Year + 4)
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BARCODE -->
+                <div class="barcode-section">
+                    <div class="barcode-lines" id="barcodeLines"></div>
+                    <div class="barcode-text">@Model.RegistrationNo</div>
+                </div>
+            </div>
+
+            <!-- FOOTER -->
+            <div class="card-footer">
+                <span>🏛️ LOVELY PROFESSIONAL UNIVERSITY</span>
+                <span>Issued: @Model.CreatedAt.ToString("MMM yyyy")</span>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ACTION BUTTONS -->
+    <div class="action-row">
+        <button class="btn-print" onclick="window.print()">
+            <i class="fas fa-print"></i> Print ID Card
+        </button>
+        <a href="/Student/Dashboard" class="btn-back-dash">
+            <i class="fas fa-arrow-left"></i> Dashboard
+        </a>
+    </div>
+
+    <script>
+        // Generate barcode lines
+        const container = document.getElementById('barcodeLines');
+        const regNo = '@Model.RegistrationNo';
+        for (let i = 0; i < 60; i++) {
+            const bar = document.createElement('span');
+            const charCode = regNo.charCodeAt(i % regNo.length);
+            bar.style.height = (15 + (charCode % 20)) + 'px';
+            bar.style.width = (i % 3 === 0) ? '3px' : '1.5px';
+            bar.style.opacity = (i % 5 === 0) ? '0.4' : '1';
+            container.appendChild(bar);
+        }
+    </script>
+
+</body>
+</html>

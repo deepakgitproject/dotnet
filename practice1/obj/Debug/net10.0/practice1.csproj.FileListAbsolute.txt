@@ -1,0 +1,15 @@
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\practice1\obj\Debug\net10.0\practice1.GeneratedMSBuildEditorConfig.editorconfig
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\practice1\obj\Debug\net10.0\practice1.AssemblyInfoInputs.cache
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\practice1\obj\Debug\net10.0\practice1.AssemblyInfo.cs
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\practice1\obj\Debug\net10.0\practice1.csproj.CoreCompileInputs.cache
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\practice1\obj\Debug\net10.0\practice1.sourcelink.json
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\practice1\bin\Debug\net10.0\practice1.exe
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\practice1\bin\Debug\net10.0\practice1.deps.json
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\practice1\bin\Debug\net10.0\practice1.runtimeconfig.json
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\practice1\bin\Debug\net10.0\practice1.dll
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\practice1\bin\Debug\net10.0\practice1.pdb
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\practice1\obj\Debug\net10.0\practice1.dll
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\practice1\obj\Debug\net10.0\refint\practice1.dll
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\practice1\obj\Debug\net10.0\practice1.pdb
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\practice1\obj\Debug\net10.0\practice1.genruntimeconfig.cache
+C:\computer_main\main\all_work\vs-studio-saves\dotnet\practice1\obj\Debug\net10.0\ref\practice1.dll

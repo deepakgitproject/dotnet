@@ -1,0 +1,476 @@
+﻿@model lpu_application.Models.Student
+@{
+    ViewData["Title"] = "Register";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LPU - Student Registration</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .top-bar {
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(10px);
+            border-bottom: 2px solid #FFD700;
+            padding: 12px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: -20px -20px 30px -20px;
+        }
+
+            .top-bar .brand {
+                color: #FFD700;
+                font-weight: 800;
+                font-size: 20px;
+            }
+
+            .top-bar a {
+                color: #ccc;
+                text-decoration: none;
+                font-size: 13px;
+            }
+
+                .top-bar a:hover {
+                    color: #FFD700;
+                }
+
+        .form-container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.07);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255,215,0,0.2);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+        }
+
+        .form-header {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+            .form-header .icon {
+                width: 70px;
+                height: 70px;
+                background: linear-gradient(135deg, #6A0DAD, #9B59B6);
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto 15px;
+                font-size: 28px;
+                border: 3px solid #FFD700;
+            }
+
+            .form-header h2 {
+                color: #FFD700;
+                font-size: 24px;
+                font-weight: 700;
+            }
+
+            .form-header p {
+                color: #aaa;
+                font-size: 13px;
+            }
+
+        .section-title {
+            color: #FFD700;
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            border-bottom: 1px solid rgba(255,215,0,0.3);
+            padding-bottom: 8px;
+            margin: 25px 0 18px;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 5px;
+        }
+
+            .form-group.full-width {
+                grid-column: 1 / -1;
+            }
+
+        label {
+            color: #ccc;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .input-wrap {
+            position: relative;
+        }
+
+            .input-wrap i {
+                position: absolute;
+                left: 14px;
+                top: 50%;
+                transform: translateY(-50%);
+                color: #6A0DAD;
+                font-size: 14px;
+            }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 12px 14px 12px 40px;
+            background: rgba(255,255,255,0.08);
+            border: 1px solid rgba(255,255,255,0.15);
+            border-radius: 10px;
+            color: #fff;
+            font-size: 14px;
+            font-family: 'Poppins', sans-serif;
+            transition: border 0.3s;
+        }
+
+            input:focus, select:focus, textarea:focus {
+                outline: none;
+                border-color: #FFD700;
+                background: rgba(255,215,0,0.05);
+            }
+
+            select option {
+                background: #1a1a2e;
+                color: #fff;
+            }
+
+        textarea {
+            padding-left: 40px;
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        .text-danger {
+            color: #ff6b6b;
+            font-size: 11px;
+            margin-top: 4px;
+        }
+
+        /* Photo Upload */
+        .photo-upload-area {
+            border: 2px dashed rgba(255,215,0,0.4);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            position: relative;
+        }
+
+            .photo-upload-area:hover {
+                border-color: #FFD700;
+                background: rgba(255,215,0,0.05);
+            }
+
+        .photo-preview {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #FFD700;
+            display: none;
+            margin: 0 auto 10px;
+        }
+
+        .photo-upload-area p {
+            color: #aaa;
+            font-size: 12px;
+        }
+
+        .photo-upload-area i {
+            color: #FFD700;
+            font-size: 30px;
+            margin-bottom: 8px;
+        }
+
+        #PhotoFile {
+            display: none;
+        }
+
+        /* Submit Button */
+        .btn-submit {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #FFD700, #FFA500);
+            color: #1a1a2e;
+            border: none;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            margin-top: 25px;
+            transition: all 0.3s;
+            letter-spacing: 0.5px;
+        }
+
+            .btn-submit:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 8px 25px rgba(255,215,0,0.5);
+            }
+
+        .login-link {
+            text-align: center;
+            margin-top: 18px;
+            color: #aaa;
+            font-size: 13px;
+        }
+
+            .login-link a {
+                color: #FFD700;
+                text-decoration: none;
+                font-weight: 600;
+            }
+
+        .alert-success {
+            background: rgba(0,200,100,0.15);
+            border: 1px solid #00c864;
+            color: #00c864;
+            padding: 12px 18px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-size: 13px;
+        }
+
+        .alert-danger {
+            background: rgba(255,80,80,0.15);
+            border: 1px solid #ff5050;
+            color: #ff5050;
+            padding: 12px 18px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top-bar">
+        <span class="brand">🎓 LPU UNIVERSITY</span>
+        <a href="/"><i class="fas fa-arrow-left"></i> Back to Home</a>
+    </div>
+
+    <div class="form-container">
+        <div class="form-header">
+            <div class="icon">📋</div>
+            <h2>NEW STUDENT REGISTRATION</h2>
+            <p>Fill in all details carefully — your ID card will be generated after registration</p>
+        </div>
+
+        @if (TempData["Success"] != null)
+        {
+            <div class="alert-success"><i class="fas fa-check-circle"></i> @TempData["Success"]</div>
+        }
+
+        @if (TempData["Error"] != null)
+        {
+            <div class="alert-danger"><i class="fas fa-exclamation-circle"></i> @TempData["Error"]</div>
+        }
+
+        <form asp-action="Register" asp-controller="Student" method="post" enctype="multipart/form-data">
+            @Html.AntiForgeryToken()
+
+            <!-- PERSONAL INFO -->
+            <div class="section-title"><i class="fas fa-user"></i> Personal Information</div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label asp-for="FirstName"></label>
+                    <div class="input-wrap">
+                        <i class="fas fa-user"></i>
+                        <input asp-for="FirstName" placeholder="Enter first name" />
+                    </div>
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="LastName"></label>
+                    <div class="input-wrap">
+                        <i class="fas fa-user"></i>
+                        <input asp-for="LastName" placeholder="Enter last name" />
+                    </div>
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DateOfBirth"></label>
+                    <div class="input-wrap">
+                        <i class="fas fa-calendar"></i>
+                        <input asp-for="DateOfBirth" type="date" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Gender"></label>
+                    <div class="input-wrap">
+                        <i class="fas fa-venus-mars"></i>
+                        <select asp-for="Gender">
+                            <option value="">-- Select Gender --</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONTACT INFO -->
+            <div class="section-title"><i class="fas fa-envelope"></i> Contact Information</div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label asp-for="Email"></label>
+                    <div class="input-wrap">
+                        <i class="fas fa-envelope"></i>
+                        <input asp-for="Email" placeholder="Enter your email" />
+                    </div>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Phone"></label>
+                    <div class="input-wrap">
+                        <i class="fas fa-phone"></i>
+                        <input asp-for="Phone" placeholder="Enter phone number" />
+                    </div>
+                </div>
+                <div class="form-group full-width">
+                    <label asp-for="Address"></label>
+                    <div class="input-wrap">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <textarea asp-for="Address" placeholder="Enter full address"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ACADEMIC INFO -->
+            <div class="section-title"><i class="fas fa-graduation-cap"></i> Academic Information</div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label asp-for="Course"></label>
+                    <div class="input-wrap">
+                        <i class="fas fa-book"></i>
+                        <select asp-for="Course">
+                            <option value="">-- Select Course --</option>
+                            <option value="B.Tech">B.Tech</option>
+                            <option value="MBA">MBA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="B.Sc">B.Sc</option>
+                            <option value="B.Com">B.Com</option>
+                            <option value="BBA">BBA</option>
+                            <option value="M.Tech">M.Tech</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Branch"></label>
+                    <div class="input-wrap">
+                        <i class="fas fa-code-branch"></i>
+                        <select asp-for="Branch">
+                            <option value="">-- Select Branch --</option>
+                            <option value="Computer Science">Computer Science</option>
+                            <option value="Information Technology">Information Technology</option>
+                            <option value="Electronics">Electronics</option>
+                            <option value="Mechanical">Mechanical</option>
+                            <option value="Civil">Civil</option>
+                            <option value="Finance">Finance</option>
+                            <option value="Marketing">Marketing</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ACCOUNT INFO -->
+            <div class="section-title"><i class="fas fa-lock"></i> Account & Photo</div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label asp-for="Password"></label>
+                    <div class="input-wrap">
+                        <i class="fas fa-lock"></i>
+                        <input asp-for="Password" type="password" placeholder="Min 6 characters" />
+                    </div>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label>Confirm Password</label>
+                    <div class="input-wrap">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="confirmPass" placeholder="Re-enter password" />
+                    </div>
+                    <span id="passError" class="text-danger"></span>
+                </div>
+                <div class="form-group full-width">
+                    <label>Profile Photo</label>
+                    <div class="photo-upload-area" onclick="document.getElementById('PhotoFile').click()">
+                        <img id="photoPreview" class="photo-preview" src="#" alt="Preview" />
+                        <i class="fas fa-camera" id="cameraIcon"></i>
+                        <p id="uploadText">Click to upload your photo (JPG, PNG)</p>
+                        <input type="file" asp-for="PhotoFile" id="PhotoFile"
+                               accept="image/*" onchange="previewPhoto(this)" />
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="btn-submit" onclick="return validateForm()">
+                <i class="fas fa-user-plus"></i> REGISTER NOW
+            </button>
+        </form>
+
+        <div class="login-link">
+            Already have an account? <a href="/Student/Login">Login Here</a>
+        </div>
+    </div>
+
+    <script>
+        function previewPhoto(input) {
+            if (input.files && input.files[0]) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    const preview = document.getElementById('photoPreview');
+                    preview.src = e.target.result;
+                    preview.style.display = 'block';
+                    document.getElementById('cameraIcon').style.display = 'none';
+                    document.getElementById('uploadText').textContent = 'Photo selected ✓';
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        function validateForm() {
+            const pass = document.getElementById('Password').value;
+            const confirm = document.getElementById('confirmPass').value;
+            if (pass !== confirm) {
+                document.getElementById('passError').textContent = 'Passwords do not match!';
+                return false;
+            }
+            return true;
+        }
+    </script>
+
+</body>
+</html>

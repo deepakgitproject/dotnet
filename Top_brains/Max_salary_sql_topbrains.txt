@@ -1,0 +1,39 @@
+create database top2
+use top2
+
+
+
+CREATE TABLE Employees (
+    Id     INT PRIMARY KEY,
+    Name   VARCHAR(50),
+    Dept   VARCHAR(50),
+    Salary INT
+);
+GO
+
+
+
+INSERT INTO Employees (Id, Name, Dept, Salary) VALUES
+(1, 'Amit',   'IT',    60000),
+(2, 'Neha',   'IT',    80000),
+(3, 'Ravi',   'HR',    50000),
+(4, 'Pooja',  'HR',    50000),
+(5, 'Suresh', 'Sales', 70000),
+(6, 'Kiran',  'Sales', 90000);
+GO
+
+
+SELECT * FROM Employees;
+GO
+
+
+
+
+SELECT Dept, Name, Salary
+FROM Employees e
+WHERE Salary = (
+    SELECT MAX(Salary)
+    FROM Employees
+    WHERE Dept = e.Dept
+);
+

@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3C14F4-430C-427D-B0D0-70B374C2E5FE}|lpu_application\\lpu_application.csproj|c:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3C14F4-430C-427D-B0D0-70B374C2E5FE}|lpu_application\\lpu_application.csproj|solutionrelative:lpu_application\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3C14F4-430C-427D-B0D0-70B374C2E5FE}|lpu_application\\lpu_application.csproj|c:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3C14F4-430C-427D-B0D0-70B374C2E5FE}|lpu_application\\lpu_application.csproj|solutionrelative:lpu_application\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3C14F4-430C-427D-B0D0-70B374C2E5FE}|lpu_application\\lpu_application.csproj|c:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\views\\student\\idcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F3C14F4-430C-427D-B0D0-70B374C2E5FE}|lpu_application\\lpu_application.csproj|solutionrelative:lpu_application\\views\\student\\idcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3C14F4-430C-427D-B0D0-70B374C2E5FE}|lpu_application\\lpu_application.csproj|c:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F3C14F4-430C-427D-B0D0-70B374C2E5FE}|lpu_application\\lpu_application.csproj|solutionrelative:lpu_application\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3C14F4-430C-427D-B0D0-70B374C2E5FE}|lpu_application\\lpu_application.csproj|c:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\views\\student\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F3C14F4-430C-427D-B0D0-70B374C2E5FE}|lpu_application\\lpu_application.csproj|solutionrelative:lpu_application\\views\\student\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3C14F4-430C-427D-B0D0-70B374C2E5FE}|lpu_application\\lpu_application.csproj|c:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\views\\student\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F3C14F4-430C-427D-B0D0-70B374C2E5FE}|lpu_application\\lpu_application.csproj|solutionrelative:lpu_application\\views\\student\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3C14F4-430C-427D-B0D0-70B374C2E5FE}|lpu_application\\lpu_application.csproj|c:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\views\\student\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F3C14F4-430C-427D-B0D0-70B374C2E5FE}|lpu_application\\lpu_application.csproj|solutionrelative:lpu_application\\views\\student\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3C14F4-430C-427D-B0D0-70B374C2E5FE}|lpu_application\\lpu_application.csproj|c:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3C14F4-430C-427D-B0D0-70B374C2E5FE}|lpu_application\\lpu_application.csproj|solutionrelative:lpu_application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3C14F4-430C-427D-B0D0-70B374C2E5FE}|lpu_application\\lpu_application.csproj|c:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F3C14F4-430C-427D-B0D0-70B374C2E5FE}|lpu_application\\lpu_application.csproj|solutionrelative:lpu_application\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3C14F4-430C-427D-B0D0-70B374C2E5FE}|lpu_application\\lpu_application.csproj|c:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3C14F4-430C-427D-B0D0-70B374C2E5FE}|lpu_application\\lpu_application.csproj|solutionrelative:lpu_application\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3C14F4-430C-427D-B0D0-70B374C2E5FE}|lpu_application\\lpu_application.csproj|c:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2F3C14F4-430C-427D-B0D0-70B374C2E5FE}|lpu_application\\lpu_application.csproj|solutionrelative:lpu_application\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\Views\\Student\\Register.cshtml",
+              "RelativeDocumentMoniker": "lpu_application\\Views\\Student\\Register.cshtml",
+              "ToolTip": "C:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\Views\\Student\\Register.cshtml",
+              "RelativeToolTip": "lpu_application\\Views\\Student\\Register.cshtml",
+              "ViewState": "AgIAANEBAAAAAAAAAAAkwNsBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T10:04:02.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "lpu_application\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "lpu_application\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAADgv1gAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T10:01:40.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IDCard.cshtml",
+              "DocumentMoniker": "C:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\Views\\Student\\IDCard.cshtml",
+              "RelativeDocumentMoniker": "lpu_application\\Views\\Student\\IDCard.cshtml",
+              "ToolTip": "C:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\Views\\Student\\IDCard.cshtml",
+              "RelativeToolTip": "lpu_application\\Views\\Student\\IDCard.cshtml",
+              "ViewState": "AgIAALUBAAAAAAAAAAAkwM4BAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T10:09:32.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "lpu_application\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "lpu_application\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAPsAAAAAAAAAAAAkwBQBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T09:59:57.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "lpu_application\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "lpu_application\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T09:57:10.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\Views\\Student\\Login.cshtml",
+              "RelativeDocumentMoniker": "lpu_application\\Views\\Student\\Login.cshtml",
+              "ToolTip": "C:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\Views\\Student\\Login.cshtml",
+              "RelativeToolTip": "lpu_application\\Views\\Student\\Login.cshtml",
+              "ViewState": "AgIAAAMBAAAAAAAAAAAkwBwBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T10:05:43.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\Program.cs",
+              "RelativeDocumentMoniker": "lpu_application\\Program.cs",
+              "ToolTip": "C:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\Program.cs",
+              "RelativeToolTip": "lpu_application\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T09:57:28.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\Views\\Student\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "lpu_application\\Views\\Student\\Dashboard.cshtml",
+              "ToolTip": "C:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\Views\\Student\\Dashboard.cshtml",
+              "RelativeToolTip": "lpu_application\\Views\\Student\\Dashboard.cshtml",
+              "ViewState": "AgIAAJ8BAAAAAAAAAAAkwLgBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T10:06:05.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "lpu_application\\Views\\Student\\Edit.cshtml",
+              "ToolTip": "C:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\Views\\Student\\Edit.cshtml",
+              "RelativeToolTip": "lpu_application\\Views\\Student\\Edit.cshtml",
+              "ViewState": "AgIAAN4BAAAAAAAAAAAkwPcBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T10:08:43.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "lpu_application\\Models\\Student.cs",
+              "ToolTip": "C:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\Models\\Student.cs",
+              "RelativeToolTip": "lpu_application\\Models\\Student.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAADwvzYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T09:55:59.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\appsettings.json",
+              "RelativeDocumentMoniker": "lpu_application\\appsettings.json",
+              "ToolTip": "C:\\computer_main\\main\\all_work\\visula-studios\\lpu_application\\lpu_application\\appsettings.json",
+              "RelativeToolTip": "lpu_application\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-26T09:53:44.013Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
